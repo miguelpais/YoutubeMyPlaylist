@@ -1,0 +1,74 @@
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<script type="text/javascript" charset="utf-8">
+	// For more API Calls see http://code.google.com/intl/pt-PT/apis/youtube/js_api_reference.html#loadVideoById
+	// ugly global variable
+	var current_video = 0;
+	
+	function onytplayerStateChange(newState) {
+		if (newState === 0) {
+			current_video += 1;
+			ytplayer = document.getElementById("player" + current_video);
+		//	ytplayer.addEventListener("onStateChange", "onytplayerStateChange");
+			ytplayer.loadVideoByUrl('http://www.youtube.com/v/' + getVideoURL("player" + current_video), 0);
+			ytplayer.setVolume(0); // DEBUG ONLY!!1! Não quero ter volume enquanto estou a testar isto.
+			
+		}
+	}
+	
+	function getVideoURL(playerId) {
+		url = document.getElementById(playerId + "_link").value;
+		return url;
+	}
+	
+	function onYouTubePlayerReady(playerId) {
+		
+		// playerId passado pelo parametro playerapiid do URL do embed.
+		// Estou a passar pelo playerId o ID HTML do elemento do player.
+		
+		if (playerId === "player0") {
+			// if first video then start playing it right away
+			ytplayer = document.getElementById(playerId);
+			ytplayer.addEventListener("onStateChange", "onytplayerStateChange");
+			ytplayer.loadVideoByUrl('http://www.youtube.com/v/' + getVideoURL(playerId), 0);
+			ytplayer.setVolume(0); // DEBUG ONLY!!1! Não quero ter volume enquanto estou a testar isto.
+		}
+	}
+	
+	function pauseVideo(playerId) {
+		// Recebe sempre como parametros o id html do elemento
+		ytplayer = document.getElementById(playerId);
+		ytplayer.pauseVideo();
+	}
+	
+	function skipVideo(playerId) {
+		// Recebe sempre como parametros o id html do elemento
+		ytplayer = document.getElementById(playerId);
+		ytplayer.seekTo(ytplayer.getDuration(), false);
+	}
+	
+	function playVideo(playerId) {
+		ytplayer = document.getElementById(playerId);
+		ytplayer.playVideo();
+	}
+	</script>
+</head>
+
+<div align="center">
+	<% @tracks.each_index do |id| %>
+		<input type="hidden" id="player<%=id%>_link" value="<%= @tracks[id].url %>" />
+		<object style="height: 360px; width: 640px">
+			<param name="movie" value="http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=player1&version=3">
+			<param name="allowScriptAccess" value="always">
+			<embed src="http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=player<%=id%>&version=3" 
+			type="application/x-shockwave-flash" allowfullscreen="true" 
+			allowScriptAccess="always" width="640" height="390" id="player<%= id %>">
+		</object>
+	<% end %>
+</div>
+
+<p><a href="#" onClick="javascript:playVideo();">Play</a> | 
+	<a href="#" onClick="javascript:pauseVideo(%>')">Pause</a> | 
+	<a href="#" onClick="javascript:skipVideo()">Skip</a></p>
+

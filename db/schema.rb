@@ -12,7 +12,7 @@
 
 ActiveRecord::Schema.define(:version => 20101112171408) do
 
-  create_table "tracks", :id => false, :force => true do |t|
+  create_table "tracks", :force => true do |t|
     t.string   "tinyurl",    :null => false
     t.integer  "tracknum",   :null => false
     t.string   "url",        :null => false

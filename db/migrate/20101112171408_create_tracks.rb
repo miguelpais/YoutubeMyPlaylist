@@ -1,6 +1,6 @@
 class CreateTracks < ActiveRecord::Migration
   def self.up
-    create_table :tracks, :id => false do |t|
+    create_table :tracks do |t|
       t.string :tinyurl, :null => false
       t.integer :tracknum, :null => false
       t.string :url, :null => false
