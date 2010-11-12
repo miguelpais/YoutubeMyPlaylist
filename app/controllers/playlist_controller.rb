@@ -1,12 +1,5 @@
 class PlaylistController < ApplicationController
-  
-  def create
+  def index
     
   end
-  
-  
-  def view
-
-  end
-  
 end
