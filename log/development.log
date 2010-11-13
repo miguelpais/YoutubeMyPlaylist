@@ -702,3 +702,1437 @@ Started GET "/p" for 127.0.0.1 at Fri Nov 12 23:20:34 +0000 2010
   [1m[36mTrack Load (0.2ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
 Rendered p/index.html.erb within layouts/application (6.0ms)
 Completed 200 OK in 26ms (Views: 14.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-13 00:16:31 +0000
+
+SyntaxError (/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:20: syntax error, unexpected tASSOC, expecting keyword_end
+        a.tinyurl => tinyurl
+                    ^
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:24: syntax error, unexpected '\n', expecting tASSOC
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:26: syntax error, unexpected '}', expecting keyword_end
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:29: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (6.4ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.8ms)
+
+
+Started GET "/p/" for 127.0.0.1 at 2010-11-13 00:16:38 +0000
+  Processing by PController#index as HTML
+  [1m[36mSQL (0.6ms)[0m  [1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [1m[35mTrack Load (0.2ms)[0m  SELECT "tracks".* FROM "tracks"
+Rendered p/index.html.erb within layouts/application (38.3ms)
+Completed 200 OK in 101ms (Views: 43.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/p/" for 127.0.0.1 at 2010-11-13 00:18:00 +0000
+  Processing by PController#index as HTML
+  [1m[36mTrack Load (0.5ms)[0m  [1mSELECT "tracks".* FROM "tracks"[0m
+Rendered p/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 26ms (Views: 15.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-13 00:35:36 +0000
+
+SyntaxError (/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:20: syntax error, unexpected tASSOC, expecting keyword_end
+        a.tinyurl => tinyurl
+                    ^
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:24: syntax error, unexpected '\n', expecting tASSOC
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:26: syntax error, unexpected '}', expecting keyword_end
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:29: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2010-11-13 00:35:39 +0000
+
+SyntaxError (/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:20: syntax error, unexpected tASSOC, expecting keyword_end
+        a.tinyurl => tinyurl
+                    ^
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:24: syntax error, unexpected '\n', expecting tASSOC
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:26: syntax error, unexpected '}', expecting keyword_end
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:29: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/playlist/index" for 127.0.0.1 at 2010-11-13 00:35:48 +0000
+
+SyntaxError (/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:20: syntax error, unexpected tASSOC, expecting keyword_end
+        a.tinyurl => tinyurl
+                    ^
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:24: syntax error, unexpected '\n', expecting tASSOC
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:26: syntax error, unexpected '}', expecting keyword_end
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:29: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/playlist/index" for 127.0.0.1 at 2010-11-13 00:36:19 +0000
+
+SyntaxError (/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:19: syntax error, unexpected tASSOC, expecting keyword_end
+        a.tinyurl => tinyurl
+                    ^
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:23: syntax error, unexpected '\n', expecting tASSOC
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:25: syntax error, unexpected '}', expecting keyword_end
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:28: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:36:42 +0000
+
+SyntaxError (/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:19: syntax error, unexpected tASSOC, expecting keyword_end
+        a.tinyurl => tinyurl
+                    ^
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:23: syntax error, unexpected '\n', expecting tASSOC
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:25: syntax error, unexpected '}', expecting keyword_end
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:28: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/p/" for 127.0.0.1 at 2010-11-13 00:36:48 +0000
+  Processing by PController#index as HTML
+  [1m[35mTrack Load (0.4ms)[0m  SELECT "tracks".* FROM "tracks"
+Rendered p/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 21ms (Views: 12.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:37:09 +0000
+
+SyntaxError (/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:19: syntax error, unexpected tASSOC, expecting keyword_end
+        a.tinyurl => tinyurl
+                    ^
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:23: syntax error, unexpected '\n', expecting tASSOC
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:25: syntax error, unexpected '}', expecting keyword_end
+/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:28: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.7ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:37:23 +0000
+
+SyntaxError (/Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:28: syntax error, unexpected $end, expecting keyword_end):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:37:29 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (0.7ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:37:41 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.2ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:37:41 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/playlist/form_submit?Name=Charlie+bit+me%0D%0A%09" for 127.0.0.1 at 2010-11-13 00:38:15 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'form_submit' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:40:21 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:40:21 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:40:34 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:40:34 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:41:03 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:41:03 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:41:39 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:41:39 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.6ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:41:41 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:41:41 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:45:17 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.1ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:45:18 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:46:03 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:46:04 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:46:12 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:46:12 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:46:24 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.1ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:46:24 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (3.0ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:46:40 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:46:40 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:47:06 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:47:06 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:47:11 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:47:11 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:47:15 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:47:16 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:47:21 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:47:21 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:47:25 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:47:25 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.9ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:47:32 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:47:32 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:47:49 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:47:49 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:48:06 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.1ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:48:06 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.4ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:49:45 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:49:45 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:50:00 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:50:00 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.7ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:50:09 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:50:09 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:50:15 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:50:15 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.2ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:50:28 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.1ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:50:28 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:50:31 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:50:31 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:50:53 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:50:53 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:50:57 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.1ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:50:57 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:53:16 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:53:17 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started GET "/playlist/parseVideos()?lol=Continue&Name=lady+gaga+poker+face" for 127.0.0.1 at 2010-11-13 00:53:34 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'parseVideos()' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/parseVideos()?lol=Continue&Name=lady+gaga+poker+face" for 127.0.0.1 at 2010-11-13 00:54:02 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'parseVideos()' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:54:04 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:54:05 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:55:24 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.0ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:55:24 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 00:59:40 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.4ms)
+Completed 200 OK in 5ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 00:59:40 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:01:23 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.2ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:01:24 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:09:10 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:09:10 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:09:47 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:09:48 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:10:40 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:10:40 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:11:28 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:11:28 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:11:50 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:11:50 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:12:09 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:12:09 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:13:56 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.2ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:13:56 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:14:33 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:14:34 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:14:45 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:14:52 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:14:55 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:15:48 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:15:48 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:15:55 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:16:02 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:16:04 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:16:09 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:16:11 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:16:15 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:16:16 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.8ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:16:19 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:16:28 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:16:30 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:16:30 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:16:38 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:16:40 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.2ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:16:40 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:16:47 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:17:24 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:17:24 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:17:36 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:22:48 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:31:18 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:32:08 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:32:09 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:33:14 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:33:14 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:33:33 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:33:33 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:34:02 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:34:03 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:34:57 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.2ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:34:57 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:35:23 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.4ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:35:24 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:35:54 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.4ms)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:35:54 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:36:41 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:36:42 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:36:50 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:36:54 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:42:48 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:42:49 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.3ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:42:53 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:43:28 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:43:28 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:43:39 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:44:32 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:44:32 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:45:12 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:45:12 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:45:17 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:47:03 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:47:04 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:47:08 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:47:14 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:47:14 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:48:03 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:48:03 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.0ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:48:07 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:48:49 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:48:49 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:48:53 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:49:01 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.4ms)
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:49:02 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:49:06 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:49:11 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:49:11 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:49:15 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:50:43 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:50:43 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:50:49 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:51:32 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.2ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:51:33 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:52:30 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.2ms)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:52:31 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.1ms)
+
+
+Started POST "/playlist/playlist/create" for 127.0.0.1 at 2010-11-13 01:52:35 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+
+AbstractController::ActionNotFound (The action 'playlist' could not be found for PlaylistController):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.8ms)
+
+
+Started GET "/playlist/" for 127.0.0.1 at 2010-11-13 01:53:02 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#index as HTML
+Rendered playlist/index.html.erb within layouts/playlist (1.3ms)
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/fonts/OldSansBlack.ttf" for 127.0.0.1 at 2010-11-13 01:53:02 +0000
+
+ActionController::RoutingError (No route matches "/stylesheets/fonts/OldSansBlack.ttf"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started POST "/playlist/create" for 127.0.0.1 at 2010-11-13 01:53:16 +0000
+DEPRECATION WARNING: verify was removed from Rails and is now available as a plugin. Please install it with `rails plugin install git://github.com/rails/verification.git`. (called from <class:PlaylistController> at /Users/miguel/Desktop/YoutubeMyPlaylist/app/controllers/playlist_controller.rb:4)
+  Processing by PlaylistController#create as */*
+  Parameters: {"\"bESGLojNYSo\""=>nil}
+Completed   in 48ms
+
+ActionView::MissingTemplate (Missing template playlist/create with {:handlers=>[:erb, :rjs, :builder, :rhtml, :rxml], :formats=>[:html, :text, :js, :css, :ics, :csv, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json], :locale=>[:en, :en]} in view paths "/Users/miguel/Desktop/YoutubeMyPlaylist/app/views"):
+  
+
+Rendered /Users/miguel/.rvm/gems/ruby-1.9.2-p0/gems/actionpack-3.0.0.rc2/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.9ms)

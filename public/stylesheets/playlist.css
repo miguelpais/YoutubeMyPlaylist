@@ -1,0 +1,27 @@
+@font-face { font-family: Old Sans Black; src: url('fonts/OldSansBlack.ttf'); } 
+
+textarea {
+	font: 120% Verdana;
+	padding: 10px;
+	color: #AAA;
+	line-height: 150%;
+	
+}
+body {
+	background: black;
+	text-align: center;
+	font: Verdana;
+}
+div#content {
+	text-align: left;
+	width: 500px;
+	margin: 0 auto;
+}
+
+h1 {
+	color: white;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px red;
+	font-family: Old Sans Black;
+	letter-spacing: 3px;
+}

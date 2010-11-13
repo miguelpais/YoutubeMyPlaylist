@@ -1,15 +1,13 @@
 
-var array = new Array();
+var array = [];
+var videos_to_load = 0;
 
-function parseVideos() {
-	
+function parseVideos() {	
 	var input = document.getElementById("input").value;
 	
 	var videos = input.split("\n");
 	var vid;
-	//~ for (vid in videos) {
-		//~ if(videos[vid]!="")
-			requestVideo(videos);
+	requestVideo(videos);
 	//~ }
 }
 
@@ -18,16 +16,19 @@ function requestVideo(search) {
 	var functionBack = "show";
 	var url = "";
 	var i;
-	
+
 	for(i in search) {
-		url = "http://gdata.youtube.com/feeds/api/videos?q="+search[i]+"&alt=json-in-script&format=5&callback="+functionBack;
-		load(url);
+		if (search[i] != "") {
+			videos_to_load += 1;
+		}	
 	}
 	
-	document.getElementById("video").innerHTML=array.toString();
-	
-	$.post("playlist/create", array);
-	
+	for(i in search) {
+		if (search[i] != "") {
+			url = "http://gdata.youtube.com/feeds/api/videos?q="+search[i]+"&alt=json-in-script&format=5&callback="+functionBack;
+			load(url);
+		}
+	}
 }
 
 function load(src) {
@@ -51,8 +52,13 @@ function load(src) {
 }
 
 function show(data) {
-	
 	url=data.feed.entry[0].id.$t;
 	param = url.split("/");
 	array.push(param[param.length-1]);
+	videos_to_load -= 1;
+	
+	if (videos_to_load == 0) {
+		alert(JSON.stringify(array));
+		$.post("/playlist/create", JSON.stringify(array));
+	}
 }
