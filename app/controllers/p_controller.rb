@@ -1,8 +1,7 @@
 class PController < ApplicationController
   def index
-    tinyurl = params[:GET]
-    
-    @tracks = Track.find(:all)
-    
+    tinyurl = params[:id]
+    @id = 0
+    @tracks = Track.find(:all, :conditions => {:tinyurl=> tinyurl})
   end
 end

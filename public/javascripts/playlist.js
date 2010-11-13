@@ -7,7 +7,7 @@ function loadNewVideo(playerId)
 	ytplayer = document.getElementById(playerId);
 	ytplayer.addEventListener("onStateChange", "onytplayerStateChange");
 	ytplayer.loadVideoByUrl('http://www.youtube.com/v/' + getVideoURL(playerId), 0);
-	ytplayer.setVolume(0); // DEBUG ONLY!!1! Não quero ter volume enquanto estou a testar isto.
+	ytplayer.setVolume(100);
 }
 
 

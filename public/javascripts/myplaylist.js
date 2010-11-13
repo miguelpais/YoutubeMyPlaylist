@@ -58,7 +58,9 @@ function show(data) {
 	videos_to_load -= 1;
 	
 	if (videos_to_load == 0) {
-		alert(JSON.stringify(array));
-		$.post("/playlist/create", JSON.stringify(array));
+		$.post("/playlist/create", {tracks_obj: JSON.stringify(array)}, 
+		function(data) {
+			window.location = "/p/index/" + data;
+		});
 	}
 }
