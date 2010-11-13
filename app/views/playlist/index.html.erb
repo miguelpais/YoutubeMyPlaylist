@@ -1,13 +1,12 @@
-<h1 id="title">Youtube my Playlist</h1>
-
-<%= javascript_include_tag "myplaylist.js" %>
-<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-<script type="text/javascript" src="http://ui.jquery.com/latest/ui/jquery.effects.core.js"></script>
-<script type="text/javascript" src="http://ui.jquery.com/latest/ui/jquery.effects.slide.js"></script>
-
 <p>
-	<input name="lol" onClick="javascript:parseVideos()" type="submit" value="Continue">
+<textarea id="input" name="Name" rows="6" cols="60" onFocus="this.value='';this.onfocus='';" >Put your videos here, for example:
+		
+Rick Roll
+Charlie Bit my Finger
+Techno Viking
+Nuclear Tacos!</textarea>
 </p>
+
 <p>
-	<textarea id="input" name="Name" rows="10" cols="60">
+	<input name="lol" onClick="javascript:parseVideos()" type="submit" class="submit" value="<%= ['Release the Awesomeness!!', 'Do a Magic Trick!', 'Deploy!', 'Leroy Jenkins!', 'I like turtles'].sort_by{rand}[0] %>">
 </p>
