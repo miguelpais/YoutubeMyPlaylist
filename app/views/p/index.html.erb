@@ -1,6 +1,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Youtube My Playlist</title>
+	<%= stylesheet_link_tag "style" %>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 	<script type="text/javascript" src="http://ui.jquery.com/latest/ui/jquery.effects.core.js"></script>
 	<script type="text/javascript" src="http://ui.jquery.com/latest/ui/jquery.effects.slide.js"></script>
@@ -22,7 +23,7 @@
 	function onytplayerStateChange(newState) {
 		if (newState === 0) {
 			current_video += 1;
-			$("#player" + (current_video - 1) + "_box").hide("slide", {direction: "left"}, 2500, function(){  $("#player" + current_video + "_box").show("slide", {direction: "right"}, 2500, function(){loadNewVideo("player" + current_video);}); });		
+			$("#player" + (current_video - 1) + "_box").hide("slide", {direction: "left"}, 2000, function(){  $("#player" + current_video + "_box").show("slide", {direction: "right"}, 2000, function(){loadNewVideo("player" + current_video);}); });		
 		}
 	}
 	
@@ -61,7 +62,8 @@
 	</script>
 </head>
 
-<div align="center">
+<div id="content">
+	<%= image_tag("logo.png") %>
 	<% @tracks.each_index do |id| %>
 		<div id="player<%=id%>_box" <% if id != 0 %> style="display: none" <% end %> >
 			<input type="hidden" id="player<%=id%>_link" value="<%= @tracks[id].url %>" />
@@ -74,9 +76,11 @@
 				</object>
 		</div>
 	<% end %>
+	
+	<p><a href="#" onClick="javascript:playVideo('player0');">Play</a> | 
+		<a href="#" onClick="javascript:pauseVideo('player0')">Pause</a> | 
+		<a href="#" onClick="javascript:skipVideo('player0')">Skip</a></p>
+		
+	<p>
 </div>
-
-<p><a href="#" onClick="javascript:playVideo('player0');">Play</a> | 
-	<a href="#" onClick="javascript:pauseVideo('player0')">Pause</a> | 
-	<a href="#" onClick="javascript:skipVideo('player0')">Skip</a></p>
 

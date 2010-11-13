@@ -1,0 +1,19 @@
+body { 
+	background: #1E1E1E url('../images/header.jpg') no-repeat;
+	text-align: center;
+	font: 120% Helvetica Verdana sans-serif;
+	color: #DDDDDD;
+}
+
+a {
+	color: #DDD;
+	font-family: Verdana;
+	font-size: 100%;
+	text-decoration: none;
+}
+
+div#content {
+	width: 832px;
+	margin: 0 auto;
+	text-align: center;
+}
