@@ -3,6 +3,15 @@
 var current_video = 0;
 var playing = true;
 
+$(document).keydown(function(e){
+    if (e.keyCode == 39) { 
+			skipVideo();
+    }
+		if (e.keyCode == 8) {
+			toogleVideo();
+		}
+});
+
 function loadNewVideo(playerId)
 {
 	ytplayer = document.getElementById(playerId);
