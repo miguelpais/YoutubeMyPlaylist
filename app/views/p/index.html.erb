@@ -1,18 +1,19 @@
+<% @tracks.each do |track| %>
+	<div id="player<%= @id %>_box" <% if @id != 0 %> style="display: none" <% end %>>
+		<input type="hidden" id="player<%=@id%>_link" value="<%= track.url %>" />
+		<object style="height: 360px; width: 640px">
+			<param name="movie" value="http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=player1&version=3">
+			<param name="allowScriptAccess" value="always">
+			<embed src="http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=player<%=@id%>&version=3" 
+				type="application/x-shockwave-flash" allowfullscreen="true" 
+				allowScriptAccess="always" width="640" height="390" id="player<%= @id %>">
+			</object>
+	</div>
+	<% @id += 1 %>
+<% end %>
 
-	<% @tracks.each do |track| %>
-		<div id="player<%= @id %>_box" <% if @id != 0 %> style="display: none" <% end %>>
-			<input type="hidden" id="player<%=@id%>_link" value="<%= track.url %>" />
-			<object style="height: 360px; width: 640px">
-				<param name="movie" value="http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=player1&version=3">
-				<param name="allowScriptAccess" value="always">
-				<embed src="http://www.youtube.com/apiplayer?enablejsapi=1&playerapiid=player<%=@id%>&version=3" 
-					type="application/x-shockwave-flash" allowfullscreen="true" 
-					allowScriptAccess="always" width="640" height="390" id="player<%= @id %>">
-				</object>
-		</div>
-		<% @id += 1 %>
-	<% end %>
-	
-	<p><a onClick="javascript:toogleVideo();"><img id="toogle" src="/images/pause.png"></a><!-- <a onClick="javascript:skipVideo()"><img id="skip" src="/images/skip.png"></a></a></p>-->
-		
-	<p>
+<p><a href="#" onClick="javascript:playVideo();">Play</a> | 
+	<a href="#" onClick="javascript:pauseVideo();">Pause</a> | <!--
+	<a href="#" onClick="javascript:skipVideo('player0')">Skip</a></p>-->
+
+<p>

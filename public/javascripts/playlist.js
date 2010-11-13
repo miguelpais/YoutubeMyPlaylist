@@ -1,16 +1,6 @@
 // For more API Calls see http://code.google.com/intl/pt-PT/apis/youtube/js_api_reference.html#loadVideoById
 // ugly global variable
 var current_video = 0;
-var playing = true;
-
-$(document).keydown(function(e){
-    if (e.keyCode == 39) { 
-			skipVideo();
-    }
-		if (e.keyCode == 8) {
-			toogleVideo();
-		}
-});
 
 function loadNewVideo(playerId)
 {
@@ -18,21 +8,6 @@ function loadNewVideo(playerId)
 	ytplayer.addEventListener("onStateChange", "onytplayerStateChange");
 	ytplayer.loadVideoByUrl('http://www.youtube.com/v/' + getVideoURL(playerId), 0);
 	ytplayer.setVolume(100);
-}
-
-function toogleVideo() {
-	ytplayer = document.getElementById("player" + current_video);
-	controller = document.getElementById("toogle");
-	if (playing === true) {
-		ytplayer.pauseVideo();
-		playing = false;
-		controller.src = "/images/play.png";
-	}
-	else {
-		ytplayer.playVideo();
-		playing = true;
-		controller.src = "/images/pause.png";
-	}
 }
 
 
@@ -49,18 +24,29 @@ function getVideoURL(playerId) {
 }
 
 function onYouTubePlayerReady(playerId) {
-	
+
 	// playerId passado pelo parametro playerapiid do URL do embed.
 	// Estou a passar pelo playerId o ID HTML do elemento do player.
-	
+
 	if (playerId === "player0") {
 		// if first video then start playing it right away
 		loadNewVideo(playerId);
 	}
 }
 
-function skipVideo() {
+function pauseVideo() {
 	// Recebe sempre como parametros o id html do elemento
 	ytplayer = document.getElementById("player" + current_video);
+	ytplayer.pauseVideo();
+}
+
+function skipVideo(playerId) {
+	// Recebe sempre como parametros o id html do elemento
+	ytplayer = document.getElementById(playerId);
 	ytplayer.seekTo(ytplayer.getDuration(), false);
+}
+
+function playVideo() {
+	ytplayer = document.getElementById("player" + current_video);
+	ytplayer.playVideo();
 }
